@@ -9,7 +9,7 @@
  * Wp Enqueue Styles
  */
 function knd_child_enqueue_styles() {
-	wp_enqueue_style('knd-child', get_stylesheet_directory_uri() .'/style.css' );
+	wp_enqueue_style( 'knd-child', get_stylesheet_directory_uri() . '/style.css' );
 }
 add_action('wp_enqueue_scripts', 'knd_child_enqueue_styles', 99 );
 

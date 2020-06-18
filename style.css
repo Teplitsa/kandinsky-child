@@ -5,13 +5,8 @@ Author: Teplitsa
 Author URI: https://te-st.ru/
 Description: Child theme for Kandinsky
 Template: kandinsky
-Version: 0.1.0
+Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: knd-child
-
 */
-
-/** WP.org requirements */
-.sticky {}
-.bypostauthor {}
