@@ -9,9 +9,10 @@
  * Wp Enqueue Styles
  */
 function knd_child_enqueue_styles() {
-	wp_enqueue_style( 'knd-child', get_stylesheet_directory_uri() . '/style.css' );
+	$version = date( 'Y.m.d-H:i:s', filemtime( get_stylesheet_directory() .'/style.css' ) );
+	wp_enqueue_style( 'knd-child', get_stylesheet_directory_uri() . '/style.css', array( 'knd' ), $version );
 }
-add_action('wp_enqueue_scripts', 'knd_child_enqueue_styles', 99 );
+add_action('wp_enqueue_scripts', 'knd_child_enqueue_styles' );
 
 /**
  * Copy All Parent Theme Options
