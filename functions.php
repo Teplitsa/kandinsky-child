@@ -27,3 +27,7 @@ function knd_child_after_switch_theme() {
 	}
 }
 add_action('after_switch_theme', 'knd_child_after_switch_theme');
+
+/**
+ * Add your custom code below this comment.
+ */
