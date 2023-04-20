@@ -13,7 +13,7 @@
 function knd_child_custom_login_logo() { ?>
 	<style>
 		.login h1 a {
-			background-image: url(http://kndwp.org/demo/knd-logo.svg);
+			background-image: url(https://kndwp.org/demo/knd-logo.svg);
 			background-position: center;
 			background-size: contain;
 			height:65px;
